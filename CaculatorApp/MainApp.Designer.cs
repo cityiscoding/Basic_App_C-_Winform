@@ -47,7 +47,7 @@
             this.btnApp1.Name = "btnApp1";
             this.btnApp1.Size = new System.Drawing.Size(180, 100);
             this.btnApp1.TabIndex = 1;
-            this.btnApp1.Text = "Caculator";
+            this.btnApp1.Text = "Tính Toán";
             this.btnApp1.UseVisualStyleBackColor = false;
             this.btnApp1.Click += new System.EventHandler(this.btnApp1_Click);
             // 

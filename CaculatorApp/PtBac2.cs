@@ -18,8 +18,6 @@ namespace CaculatorApp
             this.b = b;
             this.c = c;
         }
-
-
         public static string KiemTraPhuongTrinh(double a, double b, double c)
         {
             if (a == 0)

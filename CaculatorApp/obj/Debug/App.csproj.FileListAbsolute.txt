@@ -24,7 +24,6 @@ C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\App.csproj.A
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\App.csproj.SuggestedBindingRedirects.cache
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmApp1.resources
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmApp3.resources
-C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmApp5.resources
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmDangKy.resources
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmDangNhap.resources
 C:\Project_Work\Visual studio\Basic_App-main\CaculatorApp\obj\Debug\CaculatorApp.frmManHinhChinh.resources

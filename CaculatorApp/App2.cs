@@ -40,13 +40,13 @@ namespace CaculatorApp
             if (mauso1 == "0" || mauso2 == "0")
             {
                 MessageBox.Show("Mẫu số phải khác 0", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 return false;
             }
 
             return true;
         }
-
-        private void btnCong_Click(object sender, EventArgs e)
+        private void btnCong_Click_1(object sender, EventArgs e)
         {
             if (!CheckInput()) return;
 
@@ -65,7 +65,6 @@ namespace CaculatorApp
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void btnTru_Click(object sender, EventArgs e)
         {
             if (!CheckInput()) return;
@@ -85,8 +84,7 @@ namespace CaculatorApp
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
+            
         private void btnNhan_Click(object sender, EventArgs e)
         {
             if (!CheckInput()) return;
@@ -160,5 +158,7 @@ namespace CaculatorApp
             this.Hide();
             mhc.Show();
         }
+
+       
     }
 }

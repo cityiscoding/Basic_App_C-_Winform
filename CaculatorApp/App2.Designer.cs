@@ -93,7 +93,7 @@
             this.btnCong.TabIndex = 7;
             this.btnCong.Text = "Cộng";
             this.btnCong.UseVisualStyleBackColor = true;
-            this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
+            this.btnCong.Click += new System.EventHandler(this.btnCong_Click_1);
             // 
             // txtTuso2
             // 

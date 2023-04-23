@@ -35,19 +35,22 @@ namespace CaculatorApp
             txtB.Text = "";
             txtC.Text = "";
         }
+        private bool IsNumeric(string input)
+        {
+            double test;
+            return double.TryParse(input, out test);
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-            double a = double.Parse(txtA.Text);
-            double b = double.Parse(txtB.Text);
-            double c = double.Parse(txtC.Text);
-            if (!double.TryParse(txtA.Text, out a) || !double.TryParse(txtB.Text, out b) || !double.TryParse(txtC.Text, out c))
+            if (!IsNumeric(txtA.Text) || !IsNumeric(txtB.Text) || !IsNumeric(txtC.Text))
             {
                 MessageBox.Show("Dữ liệu nhập vào không phải là số!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            // Kiểm tra giá trị a
+            double a = double.Parse(txtA.Text);
+            double b = double.Parse(txtB.Text);
+            double c = double.Parse(txtC.Text);
             if (a == 0)
             {
                 MessageBox.Show("Nếu a = 0.Đây là phương trình bậc 1 , không phải phương trình bậc 2", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -57,6 +60,4 @@ namespace CaculatorApp
             MessageBox.Show(ketQua);
         }
     }
-
-  
 }

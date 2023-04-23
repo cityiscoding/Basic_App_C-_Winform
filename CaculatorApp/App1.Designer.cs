@@ -36,10 +36,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtKq = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnCong = new System.Windows.Forms.Button();
+            this.btnTru = new System.Windows.Forms.Button();
+            this.btnNhan = new System.Windows.Forms.Button();
+            this.btnChia = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -115,53 +115,53 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Kết quả:";
             // 
-            // button1
+            // btnCong
             // 
-            this.button1.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Location = new System.Drawing.Point(381, 386);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 50);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Cộng";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCong.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCong.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnCong.Location = new System.Drawing.Point(381, 386);
+            this.btnCong.Name = "btnCong";
+            this.btnCong.Size = new System.Drawing.Size(100, 50);
+            this.btnCong.TabIndex = 4;
+            this.btnCong.Text = "Cộng";
+            this.btnCong.UseVisualStyleBackColor = true;
+            this.btnCong.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnTru
             // 
-            this.button2.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(501, 386);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 50);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Trừ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTru.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTru.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnTru.Location = new System.Drawing.Point(501, 386);
+            this.btnTru.Name = "btnTru";
+            this.btnTru.Size = new System.Drawing.Size(100, 50);
+            this.btnTru.TabIndex = 5;
+            this.btnTru.Text = "Trừ";
+            this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
-            // button3
+            // btnNhan
             // 
-            this.button3.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button3.Location = new System.Drawing.Point(627, 386);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 50);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Nhân";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnNhan.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNhan.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnNhan.Location = new System.Drawing.Point(627, 386);
+            this.btnNhan.Name = "btnNhan";
+            this.btnNhan.Size = new System.Drawing.Size(100, 50);
+            this.btnNhan.TabIndex = 6;
+            this.btnNhan.Text = "Nhân";
+            this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
-            // button4
+            // btnChia
             // 
-            this.button4.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button4.Location = new System.Drawing.Point(755, 386);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 50);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Chia";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnChia.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChia.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btnChia.Location = new System.Drawing.Point(755, 386);
+            this.btnChia.Name = "btnChia";
+            this.btnChia.Size = new System.Drawing.Size(100, 50);
+            this.btnChia.TabIndex = 7;
+            this.btnChia.Text = "Chia";
+            this.btnChia.UseVisualStyleBackColor = true;
+            this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
             // 
             // btnBack
             // 
@@ -195,10 +195,10 @@
             this.ClientSize = new System.Drawing.Size(982, 653);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnChia);
+            this.Controls.Add(this.btnNhan);
+            this.Controls.Add(this.btnTru);
+            this.Controls.Add(this.btnCong);
             this.Controls.Add(this.txtKq);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSo2);
@@ -226,10 +226,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKq;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnCong;
+        private System.Windows.Forms.Button btnTru;
+        private System.Windows.Forms.Button btnNhan;
+        private System.Windows.Forms.Button btnChia;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnClear;
     }
