@@ -16,7 +16,7 @@ namespace CaculatorApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmManHinhChinh());
+            Application.Run(new frmDangNhap());
         }
         public static void ExitApplication()
         {

@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CaculatorApp",
-    "\\CaculatorApp\\Properties"
+    "\\CaculatorApp\\Properties",
+    "\\CaculatorTest"
   ],
-  "SelectedNode": "\\CaculatorApp\\DangKy.cs",
+  "SelectedNode": "\\CaculatorTest\\TamGiacTests.cs",
   "PreviewInSolutionExplorer": false
 }
