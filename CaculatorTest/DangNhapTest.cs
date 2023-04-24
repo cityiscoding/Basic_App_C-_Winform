@@ -22,93 +22,78 @@
 //        //Assert.IsTrue sẽ đảm bảo rằng giá trị của biến này là true. Nếu kết nối thất bại,
 //        //biến này sẽ giữ nguyên giá trị mặc định là false và phương thức Assert.IsTrue sẽ báo lỗi.
 
-//       [TestMethod]
-//        public void TestDatabaseConnection()
-//        {
-//            // Arrange
-//            string connectionString = "Data Source=DESKTOP-E532F7N;Initial Catalog=TEST;Integrated Security=True";
+//        //[TestMethod]
+//        //public void TestDatabaseConnection()
+//        //{
+//        //    // Arrange
+//        //    string connectionString = "Data Source=DESKTOP-E532F7N;Initial Catalog=TEST;Integrated Security=True";
 
-//            // Act
-//            bool isConnected = false;
-//            try
-//            {
-//                using (SqlConnection con = new SqlConnection(connectionString))
-//                {
-//                    con.Open();
-//                    isConnected = true;
-//                }
-//            }
-//            catch (Exception)
-//            {
-//                isConnected = false;
-//            }
+//        //    // Act
+//        //    bool isConnected = false;
+//        //    try
+//        //    {
+//        //        using (SqlConnection con = new SqlConnection(connectionString))
+//        //        {
+//        //            con.Open();
+//        //            isConnected = true;
+//        //        }
+//        //    }
+//        //    catch (Exception)
+//        //    {
+//        //        isConnected = false;
+//        //    }
 
-//            // Assert
-//            Assert.IsTrue(isConnected, "Failed to connect to database.");
-//        }
-
-
-//        [TestMethod]
-//        public void TestKiemTraThongTin()
-//        {
-//            string TenDangNhap = null;
-//            string MatKhau = null;
-
-//            bool actual = XL_DangNhap.KiemTraThongTin(TenDangNhap, MatKhau);
-
-//            Assert.IsFalse(actual);
-//        }
+//        //    // Assert
+//        //    Assert.IsTrue(isConnected, "Failed to connect to database.");
+//        //}
 
 
+//        //[TestMethod]
+//        //public void TestKiemTraThongTin()
+//        //{
+//        //    string TenDangNhap = null;
+//        //    string MatKhau = null;
 
-//        //test case dang nhap
-//        [TestMethod]
-//        public void TestDangNhapdungHienthongBaoxinchao()
-//        {
-//            // Arrange
-//            string tenDangNhap = "Tranthanhpho";
-//            string matKhau = "Abc123@.";
+//        //    bool actual = XL_DangNhap.KiemTraThongTin(TenDangNhap, MatKhau);
 
-//            // Act
-//            bool result = XL_DangNhap.DangNhap(tenDangNhap, matKhau);
-
-//            // Assert
-//            Assert.IsFalse(result);
-//            Assert.AreEqual(MessageBox.Show($"Xin chào '{tenDangNhap}'", "Đăng nhập thành công!", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1), DialogResult.OK);
-//        }
+//        //    Assert.IsFalse(actual);
+//        //}
 
 
 
-//        //test ang nhap thong tin sai
-//        [TestMethod]
-//        public void DangNhap_ThongTinSai_TraVeFalseVaHienThiThongBaoLoi()
-//        {
-//            // Arrange
-//            string tenDangNhap = "UsernameSai";
-//            string matKhau = "Passwordsai1";
+//        ////test case dang nhap
+//        //[TestMethod]
+//        //public void TestDangNhapdungHienthongBaoxinchao()
+//        //{
+//        //    // Arrange
+//        //    string tenDangNhap = "Tranthanhpho";
+//        //    string matKhau = "Abc123@.";
 
-//            // Act
-//            bool result = XL_DangNhap.DangNhap(tenDangNhap, matKhau);
+//        //    // Act
+//        //    bool result = XL_DangNhap.DangNhap(tenDangNhap, matKhau);
 
-//            // Assert
-//            bool messageBoxShown = MessageBoxShown("Tên đăng nhập hoặc mật khẩu không đúng.", "Đăng nhập thất bại!");
-//            Assert.IsFalse(result == false && messageBoxShown);
-//        }
+//        //    // Assert
+//        //    Assert.IsFalse(result);
+//        //    Assert.AreEqual(MessageBox.Show($"Xin chào '{tenDangNhap}'", "Đăng nhập thành công!", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1), DialogResult.OK);
+//        //}
 
 
-//        private bool MessageBoxShown(string message, string caption)
-//        {
-//            Form activeForm = Form.ActiveForm;
-//            if (activeForm != null && activeForm is MessageBox)
-//            {
-//                Form msgBox = activeForm;
-//                if (msgBox.Text == caption && msgBox.ToString() == message)
-//                {
-//                    return true;
-//                }
-//            }
-//            return false;
-//        }
+
+
+
+//        //private bool MessageBoxShown(string message, string caption)
+//        //{
+//        //    Form activeForm = Form.ActiveForm;
+//        //    if (activeForm != null && activeForm is MessageBox)
+//        //    {
+//        //        Form msgBox = activeForm;
+//        //        if (msgBox.Text == caption && msgBox.ToString() == message)
+//        //        {
+//        //            return true;
+//        //        }
+//        //    }
+//        //    return false;
+//        //}
 
 
 //    }
