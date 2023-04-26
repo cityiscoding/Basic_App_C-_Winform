@@ -85,7 +85,5 @@ namespace CaculatorTest
             // Assert
             Assert.AreEqual("Phuong trinh co 2 nghiem phan biet x1 Delta > 0. = 0.5, x2 = -3", result);
         }
-        [TestMethod]
-
     }
 }
