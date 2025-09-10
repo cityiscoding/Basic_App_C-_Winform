@@ -1,0 +1,16 @@
+{
+  "name": "http-tool-enhanced",
+  "version": "1.0.0",
+  "description": "Enhanced HTTP tool with improved HTTP/2 and HTTP/1.1 selection",
+  "main": "http_tool.js",
+  "scripts": {
+    "test": "node test_http_versions.js"
+  },
+  "dependencies": {
+    "hpack": "^1.0.0",
+    "chalk": "^4.1.2"
+  },
+  "keywords": ["http", "http2", "performance", "testing"],
+  "author": "nmcutiii",
+  "license": "MIT"
+}
