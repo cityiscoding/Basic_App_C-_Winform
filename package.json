@@ -1,0 +1,24 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "mix-http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityiscoding/Basic_App_C-_Winform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cityiscoding/Basic_App_C-_Winform/issues"
+  },
+  "homepage": "https://github.com/cityiscoding/Basic_App_C-_Winform#readme",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "hpack": "^1.0.0"
+  }
+}
